@@ -1,0 +1,26 @@
+version: v2
+title: SYREBO补充研究系列中文海报
+size: [960, 1280]
+customFonts:
+  - family: 得意黑
+    src: "https://statics.kimi.ai/neo-design-static/p-font/得意黑.ttf"
+theme:
+  colors:
+    navy: "#00356B"
+    blue: "#0050A0"
+    pale: "#F4F7FB"
+    paleblue: "#E8F2FB"
+    orange: "#D97925"
+    ink: "#1C2836"
+    muted: "#526478"
+    white: "#FFFFFF"
+    line: "#D3DEEC"
+pages:
+  - pages/1_li2023.page
+  - pages/2_zhang2024.page
+  - pages/3_rehman2026.page
+  - pages/4_abdetwab2026.page
+  - pages/5_liu2024.page
+  - pages/6_sgambato2026.page
+  - pages/7_heo2026.page
+  - pages/8_kuvijitsuwan2024.page
