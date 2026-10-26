@@ -1,20 +1,17 @@
-# Syrebo RMT Clinical Study
+# Syrebo Research Evidence Series
 
-Independent bilingual clinical-evidence feature on Qian et al. (2025), studying the Yisheng SY-HR06 rehabilitation robot glove combined with mirror therapy.
+Independent static bilingual catalogue and research-interpretation articles. The original `gavin262/syrebo-clinical-column` repository is unchanged.
 
-## Pages
+## Structure
+- `index.html` / `en/index.html`: Chinese and English catalogues
+- `studies/<paper>/`: Chinese articles
+- `en/studies/<paper>/`: English articles
+- `poster/studies/<paper>/`: Chinese poster pages
+- `appendix/`: secondary-evidence classification appendix
+- `assets/`: shared CSS, original SVG schematics and SVG posters
 
-- `index.html` — Chinese article
-- `en/index.html` — English article
-- `poster/index.html` — Chinese image poster
-- `assets/` — shared styles and the vector poster; paper figures and the logo use their original public URLs
+## Evidence classification
+Five original clinical features (including Qian 2025), one mechanistic study, two engineering studies and one secondary-evidence analysis are included. Liu 2024, Sgambato 2026 and Heo 2026 remain explicitly marked as requiring full-text device-brand/model verification; they are not counted as confirmed SYREBO-device experiments. Kuvijitsuwan 2024 tested a university-built air-guitar and is classified as secondary mention.
 
 ## GitHub Pages
-
-The site is plain HTML/CSS and can be served from the `main` branch root. In GitHub, select **Settings → Pages → Deploy from a branch → main / (root)**.
-
-No build step, backend, cookies or user-data collection is used.
-
-## Evidence note
-
-The paper randomized 66 participants; 52 completed and were analyzed. It is a three-arm randomized controlled pilot study with four weeks of intervention and no follow-up. Results for the combined intervention must not be presented as proof of the glove's independent or long-term efficacy.
+Plain HTML/CSS/SVG; no build, backend, cookies or user-data collection. Deploy from `main / (root)` via Settings → Pages. Saving a preview version is not public deployment.
