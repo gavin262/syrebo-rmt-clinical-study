@@ -1,0 +1,131 @@
+pageType: content
+background:
+  type: gradient
+  gradientType: linear
+  angle: 90
+  stops:
+    - {position: 0, color: "$pale"}
+    - {position: 1, color: "$paleblue"}
+elements:
+  - elementId: top-rule
+    elementType: shape
+    bounds: [0, 0, 960, 12]
+    shapeName: rect
+    fill: {type: solid, color: "#0050A0"}
+  - elementId: brand
+    elementType: text
+    bounds: [60, 45, 350, 55]
+    content: {fontSize: 34, fontFamily: MiSans, bold: true, color: "$navy", wrap: false, text: SYREBO}
+  - elementId: series
+    elementType: text
+    bounds: [500, 48, 400, 58]
+    content:
+      fontSize: 14
+      fontFamily: MiSans
+      bold: true
+      color: "$muted"
+      align: [right, top]
+      text: |
+        <p>原始临床随机对照研究</p><p>ORIGINAL RECORD · 2026</p>
+  - elementId: title
+    elementType: text
+    bounds: [60, 135, 840, 150]
+    content:
+      fontSize: 43
+      fontFamily: 得意黑
+      color: "$navy"
+      lineHeight: 1.25
+      text: |
+        <p>机器人手训练＋NMES</p><p>哪些结果显著，哪些没有？</p>
+  - elementId: subtitle
+    elementType: text
+    bounds: [60, 310, 840, 65]
+    content:
+      fontSize: 22
+      fontFamily: MiSans
+      bold: true
+      color: "#0050A0"
+      text: 慢性卒中RCT｜46例随机，42例完成
+  - elementId: stat-bg
+    elementType: shape
+    bounds: [45, 395, 870, 175]
+    shapeName: roundRect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$line"}
+  - elementId: stat0
+    elementType: text
+    bounds: [60, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>46例</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">随机，每组23例</span></p>
+  - elementId: stat1
+    elementType: text
+    bounds: [350, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>42例</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">完成，每组21例</span></p>
+  - elementId: stat2
+    elementType: text
+    bounds: [640, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>6周</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">每周3次</span></p>
+  - elementId: result-bg
+    elementType: shape
+    bounds: [0, 620, 960, 350]
+    shapeName: rect
+    fill: {type: solid, color: "$navy"}
+  - elementId: result-label
+    elementType: text
+    bounds: [60, 655, 840, 40]
+    content: {fontSize: 20, fontFamily: MiSans, bold: true, color: "#A9C8E8", text: "核心信息  /  KEY READING"}
+  - elementId: result
+    elementType: text
+    bounds: [60, 720, 840, 130]
+    content:
+      fontSize: 41
+      fontFamily: 得意黑
+      color: "$white"
+      lineHeight: 1.3
+      text: |
+        <p>握力组间 p=0.002</p><p>Purdue 组间 p=0.076</p>
+  - elementId: result-note
+    elementType: text
+    bounds: [60, 865, 840, 80]
+    content:
+      fontSize: 16
+      fontFamily: MiSans
+      color: "$paleblue"
+      lineHeight: 1.45
+      text: 46例慢性卒中患者随机分组，42例完成。研究组接受机器人手治疗＋同步神经肌肉电刺激（NMES）＋常规物理治疗，对照组接受常规物理治疗。六周后握力组间差异显著（p=0.002），但Purdue Pegboard患手成绩的组间p=0.076，不能宣称该指标组间显著。
+  - elementId: boundary-rule
+    elementType: shape
+    bounds: [60, 1010, 8, 112]
+    shapeName: rect
+    fill: {type: solid, color: "$orange"}
+  - elementId: boundary
+    elementType: text
+    bounds: [88, 1000, 812, 135]
+    content:
+      fontSize: 19
+      fontFamily: MiSans
+      color: "$ink"
+      lineHeight: 1.45
+      text: |
+        <p><strong>研究边界</strong></p><p>组合方案不能全部归因于手套；精细操作组间差异未达传统显著标准。</p>
+  - elementId: source
+    elementType: text
+    bounds: [60, 1160, 840, 75]
+    content:
+      fontSize: 12
+      fontFamily: MiSans
+      color: "$muted"
+      lineHeight: 1.35
+      text: |
+        <p>Alaa Elhamy Mansour Abd-Eltwab et al. · The Egyptian Journal of Hospital Medicine, 103(1), 2607–2611, Article 155 · 2026</p><p>DOI: 10.21608/ejhm.2026.504952</p>

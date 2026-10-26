@@ -1,0 +1,131 @@
+pageType: content
+background:
+  type: gradient
+  gradientType: linear
+  angle: 90
+  stops:
+    - {position: 0, color: "$pale"}
+    - {position: 1, color: "$paleblue"}
+elements:
+  - elementId: top-rule
+    elementType: shape
+    bounds: [0, 0, 960, 12]
+    shapeName: rect
+    fill: {type: solid, color: "#0050A0"}
+  - elementId: brand
+    elementType: text
+    bounds: [60, 45, 350, 55]
+    content: {fontSize: 34, fontFamily: MiSans, bold: true, color: "$navy", wrap: false, text: SYREBO}
+  - elementId: series
+    elementType: text
+    bounds: [500, 48, 400, 58]
+    content:
+      fontSize: 14
+      fontFamily: MiSans
+      bold: true
+      color: "$muted"
+      align: [right, top]
+      text: |
+        <p>原始临床随机对照研究</p><p>ORIGINAL RECORD · 2026</p>
+  - elementId: title
+    elementType: text
+    bounds: [60, 135, 840, 150]
+    content:
+      fontSize: 43
+      fontFamily: 得意黑
+      color: "$navy"
+      lineHeight: 1.25
+      text: |
+        <p>机器人手套辅助</p><p>任务导向镜像治疗</p>
+  - elementId: subtitle
+    elementType: text
+    bounds: [60, 310, 840, 65]
+    content:
+      fontSize: 22
+      fontFamily: MiSans
+      bold: true
+      color: "#0050A0"
+      text: SYREBO｜亚急性卒中非盲RCT
+  - elementId: stat-bg
+    elementType: shape
+    bounds: [45, 395, 870, 175]
+    shapeName: roundRect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$line"}
+  - elementId: stat0
+    elementType: text
+    bounds: [60, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>30例</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">预封信封随机分组</span></p>
+  - elementId: stat1
+    elementType: text
+    bounds: [350, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>8周</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">每日1次，每周5次</span></p>
+  - elementId: stat2
+    elementType: text
+    bounds: [640, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>3项</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">BBT／FMA-UE／ARAT</span></p>
+  - elementId: result-bg
+    elementType: shape
+    bounds: [0, 620, 960, 350]
+    shapeName: rect
+    fill: {type: solid, color: "$navy"}
+  - elementId: result-label
+    elementType: text
+    bounds: [60, 655, 840, 40]
+    content: {fontSize: 20, fontFamily: MiSans, bold: true, color: "#A9C8E8", text: "核心信息  /  KEY READING"}
+  - elementId: result
+    elementType: text
+    bounds: [60, 720, 840, 130]
+    content:
+      fontSize: 41
+      fontFamily: 得意黑
+      color: "$white"
+      lineHeight: 1.3
+      text: |
+        <p>30例随机｜8周干预</p><p>BBT · FMA-UE · ARAT</p>
+  - elementId: result-note
+    elementType: text
+    bounds: [60, 865, 840, 80]
+    content:
+      fontSize: 16
+      fontFamily: MiSans
+      color: "$paleblue"
+      lineHeight: 1.45
+      text: 30例亚急性卒中患者被随机分为两组，比较“机器人手套辅助任务导向镜像治疗”与“任务导向镜像治疗”。八周后，摘要报告BBT、FMA-UE和ARAT的组内及组间差异具有统计学意义。研究为非盲设计，样本较小，具体效应值仍需全文核对。
+  - elementId: boundary-rule
+    elementType: shape
+    bounds: [60, 1010, 8, 112]
+    shapeName: rect
+    fill: {type: solid, color: "$orange"}
+  - elementId: boundary
+    elementType: text
+    bounds: [88, 1000, 812, 135]
+    content:
+      fontSize: 19
+      fontFamily: MiSans
+      color: "$ink"
+      lineHeight: 1.45
+      text: |
+        <p><strong>研究边界</strong></p><p>摘要报告组内及组间显著差异；非盲、小样本。型号与具体p值全文待核。</p>
+  - elementId: source
+    elementType: text
+    bounds: [60, 1160, 840, 75]
+    content:
+      fontSize: 12
+      fontFamily: MiSans
+      color: "$muted"
+      lineHeight: 1.35
+      text: |
+        <p>Abdul Rehman et al. · Hong Kong Physiotherapy Journal · 2026</p><p>DOI: 10.1142/S1013702526500149</p>
