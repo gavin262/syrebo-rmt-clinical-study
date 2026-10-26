@@ -1,0 +1,131 @@
+pageType: content
+background:
+  type: gradient
+  gradientType: linear
+  angle: 90
+  stops:
+    - {position: 0, color: "$pale"}
+    - {position: 1, color: "$paleblue"}
+elements:
+  - elementId: top-rule
+    elementType: shape
+    bounds: [0, 0, 960, 12]
+    shapeName: rect
+    fill: {type: solid, color: "#5B5EA6"}
+  - elementId: brand
+    elementType: text
+    bounds: [60, 45, 350, 55]
+    content: {fontSize: 34, fontFamily: MiSans, bold: true, color: "$navy", wrap: false, text: SYREBO}
+  - elementId: series
+    elementType: text
+    bounds: [500, 48, 400, 58]
+    content:
+      fontSize: 14
+      fontFamily: MiSans
+      bold: true
+      color: "$muted"
+      align: [right, top]
+      text: |
+        <p>机制性fNIRS研究</p><p>ORIGINAL RECORD · 2024</p>
+  - elementId: title
+    elementType: text
+    bounds: [60, 135, 840, 150]
+    content:
+      fontSize: 43
+      fontFamily: 得意黑
+      color: "$navy"
+      lineHeight: 1.25
+      text: |
+        <p>软体手套 × VR</p><p>脑激活研究不是疗效试验</p>
+  - elementId: subtitle
+    elementType: text
+    bounds: [60, 310, 840, 65]
+    content:
+      fontSize: 22
+      fontFamily: MiSans
+      bold: true
+      color: "#5B5EA6"
+      text: fNIRS｜20名健康者＋20名卒中患者
+  - elementId: stat-bg
+    elementType: shape
+    bounds: [45, 395, 870, 175]
+    shapeName: roundRect
+    fill: {type: solid, color: "$white"}
+    border: {style: solid, width: 1, color: "$line"}
+  - elementId: stat0
+    elementType: text
+    bounds: [60, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>40人</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">20名健康＋20名卒中</span></p>
+  - elementId: stat1
+    elementType: text
+    bounds: [350, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>3任务</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">RA／VR／VRA</span></p>
+  - elementId: stat2
+    elementType: text
+    bounds: [640, 410, 250, 135]
+    content:
+      fontFamily: MiSans
+      color: "$navy"
+      text: |
+        <p><span style="font-size:30px"><strong>fNIRS</strong></span></p><p style="margin-top:8px"><span style="font-size:14px; color:$muted">前额叶／运动皮层／枕叶</span></p>
+  - elementId: result-bg
+    elementType: shape
+    bounds: [0, 620, 960, 350]
+    shapeName: rect
+    fill: {type: solid, color: "$navy"}
+  - elementId: result-label
+    elementType: text
+    bounds: [60, 655, 840, 40]
+    content: {fontSize: 20, fontFamily: MiSans, bold: true, color: "#A9C8E8", text: "核心信息  /  KEY READING"}
+  - elementId: result
+    elementType: text
+    bounds: [60, 720, 840, 130]
+    content:
+      fontSize: 41
+      fontFamily: 得意黑
+      color: "$white"
+      lineHeight: 1.3
+      text: |
+        <p>VR 与 VRA 任务</p><p>诱导更广泛皮层激活</p>
+  - elementId: result-note
+    elementType: text
+    bounds: [60, 865, 840, 80]
+    content:
+      fontSize: 16
+      fontFamily: MiSans
+      color: "$paleblue"
+      lineHeight: 1.45
+      text: 这是一项脑激活机制研究，不是临床功能疗效试验。20名健康受试者和20名卒中患者完成机器人手套辅助被动抓握、观看VR抓握视频、手套＋VR三种任务。VR与联合任务诱导更广泛的皮层激活，但不能据此写成已证明功能恢复。
+  - elementId: boundary-rule
+    elementType: shape
+    bounds: [60, 1010, 8, 112]
+    shapeName: rect
+    fill: {type: solid, color: "$orange"}
+  - elementId: boundary
+    elementType: text
+    bounds: [88, 1000, 812, 135]
+    content:
+      fontSize: 19
+      fontFamily: MiSans
+      color: "$ink"
+      lineHeight: 1.45
+      text: |
+        <p><strong>研究边界</strong></p><p>未证明功能恢复；激活高不等于恢复好。手套品牌型号全文待核。</p>
+  - elementId: source
+    elementType: text
+    bounds: [60, 1160, 840, 75]
+    content:
+      fontSize: 12
+      fontFamily: MiSans
+      color: "$muted"
+      lineHeight: 1.35
+      text: |
+        <p>P. Liu et al. · IEEE Transactions on Neural Systems and Rehabilitation Engineering, 32, 3848–3857 · 2024</p><p>DOI: 10.1109/TNSRE.2024.3482470</p>
